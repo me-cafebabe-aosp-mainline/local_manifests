@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- HALs -->
+  <project path="external/tinyhal" name="android_external_tinyhal" groups="mainline,mainline_dep_lineageos" remote="Mainline-dep-LineageOS" />
+  <project path="hardware/intel/sensors-iio" name="android_hardware_intel_sensors-iio" groups="mainline,mainline_dep_lineageos" remote="Mainline-dep-LineageOS" />
+
+  <!-- Misc -->
+  <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" groups="mainline,mainline_dep_lineageos" remote="Mainline-dep-LineageOS" />
+</manifest>

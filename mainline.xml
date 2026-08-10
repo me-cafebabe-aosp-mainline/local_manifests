@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Boot manager -->
+  <project path="prebuilts/bootmgr" name="android_prebuilts_bootmgr" groups="mainline" remote="Mainline-dep-LineageOS" />
+
+  <!-- HALs -->
+  <project path="external/drm_hwcomposer-upstream" name="android_external_drm_hwcomposer-upstream" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="external/libdisplay-info-upstream" name="android_external_libdisplay-info-upstream" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="external/minigbm-upstream" name="android_external_minigbm-upstream" groups="mainline" remote="Mainline-dep-LineageOS" />
+
+  <!-- Mainline repositories -->
+  <project path="external/linux-firmware-mainline" name="android_external_linux-firmware-mainline" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="hardware/mainline/common" name="android_hardware_mainline_common" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="hardware/mainline/qcom" name="android_hardware_mainline_qcom" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="kernel/mainline/configs" name="android_kernel_mainline_configs" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="device/mainline/common" name="android_device_mainline_common" groups="mainline" remote="Mainline-dep-LineageOS" />
+
+  <!-- Mesa -->
+  <project path="external/mesa" name="android_external_mesa" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="prebuilts/mesa-build-dep" name="android_prebuilts_mesa-build-dep" groups="mainline" remote="Mainline-dep-LineageOS" />
+</manifest>

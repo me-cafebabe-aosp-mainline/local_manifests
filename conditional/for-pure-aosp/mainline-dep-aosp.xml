@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Inline kernel build -->
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="mainline,mainline_dep_aosp,mainline_dep_lineageos_default" remote="Mainline-dep-AOSP" revision="main-kernel" />
+</manifest>

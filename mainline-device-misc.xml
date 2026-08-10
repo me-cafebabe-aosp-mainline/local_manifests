@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project path="device/apple/snowcastle" name="android_device_apple_snowcastle" groups="mainline,mainline_device_misc" remote="Mainline-dep-LineageOS" />
+  <project path="device/mainline/generic" name="android_device_mainline_generic" groups="mainline,mainline_device_misc" remote="Mainline-dep-LineageOS" />
+  <project path="device/pc/basic_x86_64_pc" name="android_device_pc_basic_x86_64_pc" groups="mainline,mainline_device_misc" remote="Mainline-dep-LineageOS" />
+</manifest>

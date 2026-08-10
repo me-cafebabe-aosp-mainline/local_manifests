@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Bootloader -->
+  <project path="external/lk2nd" name="android_external_lk2nd" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
+
+  <!-- Common -->
+  <project path="device/mainline/qcom-common" name="android_device_mainline_qcom-common" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
+
+  <!-- Xiaomi -->
+  <project path="device/xiaomi/mi7150-mainline" name="android_device_xiaomi_mi7150-mainline" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
+  <project path="device/xiaomi/mi89xx-mainline" name="android_device_xiaomi_mi89xx-mainline" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
+
+  <!-- Xiaomi SDM710 -->
+  <project path="device/xiaomi/mi710-mainline" name="android_device_xiaomi_mi710-mainline" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
+  <project path="device/xiaomi/pyxis_mainline" name="android_device_xiaomi_pyxis_mainline" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
+</manifest>

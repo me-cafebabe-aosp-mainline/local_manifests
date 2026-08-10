@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+  <project path="external/libcamera" name="external/libcamera" groups="mainline,mainline_dep_baylibre" remote="Mainline-dep-BayLibre" />
+  <project path="external/libyaml" name="external/libyaml" groups="mainline,mainline_dep_baylibre" remote="Mainline-dep-BayLibre" />
+  <project path="external/libyuv_chromium" name="external/libyuv_chromium" groups="mainline,mainline_dep_baylibre" remote="Mainline-dep-BayLibre" />
+-->
+</manifest>

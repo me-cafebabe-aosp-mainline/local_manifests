@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="Mainline-dep-TheMuppets"
+          fetch="https://github.com/TheMuppets"
+          revision="lineage-23.2" />
+
+  <project path="vendor/xiaomi/davinci" name="proprietary_vendor_xiaomi_davinci" groups="mainline,mainline_device_qcom,mainline_proprietary" remote="Mainline-dep-TheMuppets" revision="lineage-23.2" />
+  <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" groups="mainline,mainline_device_qcom,mainline_proprietary" remote="Mainline-dep-TheMuppets" revision="lineage-20" />
+  <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" groups="mainline,mainline_device_qcom,mainline_proprietary" remote="Mainline-dep-TheMuppets" revision="lineage-22.2" />
+  <project path="vendor/xiaomi/onclite" name="proprietary_vendor_xiaomi_onclite" groups="mainline,mainline_device_qcom,mainline_proprietary" remote="Mainline-dep-TheMuppets" revision="lineage-22.2" />
+</manifest>

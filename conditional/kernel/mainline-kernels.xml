@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/apple/asahi" name="AsahiLinux/linux" groups="mainline,mainline_device_misc,mainline_kernel" remote="github" revision="asahi" />
+  <project path="kernel/apple/HoolockLinux" name="Pauli1Go/HoolockLinux" groups="mainline,mainline_device_misc,mainline_kernel" remote="github" revision="hoolock" />
+  <project path="kernel/apple/HoolockLinux-modules/linux-apfs-rw" name="linux-apfs/linux-apfs-rw" groups="mainline,mainline_device_misc,mainline_kernel" remote="github" revision="master" />
+
+  <project path="kernel/mainline/android-mainline" name="kernel/common" groups="mainline,mainline_device_misc,mainline_kernel" remote="Mainline-dep-AOSP" revision="android-mainline" />
+
+  <project path="kernel/virt/virtio" name="android_kernel_virt_virtio" groups="mainline,mainline_device_virt,mainline_kernel" remote="Mainline-dep-LineageOS" />
+
+<!--
+  <project path="kernel/mainline/msm8916-mainline" name="msm8916-mainline/linux" groups="mainline,mainline_device_qcom,mainline_kernel" remote="github" revision="FIXME" />
+  <project path="kernel/mainline/msm8953-mainline" name="msm8953-mainline/linux" groups="mainline,mainline_device_qcom,mainline_kernel" remote="github" revision="FIXME" />
+  <project path="kernel/mainline/msm8956-mainline" name="msm8956-mainline/linux" groups="mainline,mainline_device_qcom,mainline_kernel" remote="codeberg(FIXME)" revision="FIXME" />
+  <project path="kernel/mainline/msm8998-mainline" name="msm8998-mainline/linux" groups="mainline,mainline_device_qcom,mainline_kernel" remote="github" revision="qcom-msm8998-6.1.y" />
+  <project path="kernel/mainline/msm89x7-mainline" name="msm89x7-mainline/linux" groups="mainline,mainline_device_qcom,mainline_kernel" remote="github" revision="FIXME" />
+  <project path="kernel/mainline/sdm670-mainline" name="ellyq/sdm710-mainline" groups="mainline,mainline_device_qcom,mainline_kernel" remote="github" revision="on-stable" />
+  <project path="kernel/mainline/sm7150-mainline" name="sm7150-mainline/linux" groups="mainline,mainline_device_qcom,mainline_kernel" remote="github" revision="FIXME" />
+-->
+</manifest>
