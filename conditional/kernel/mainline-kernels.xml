@@ -6,7 +6,7 @@
 
   <project path="kernel/mainline/android-mainline" name="kernel/common" groups="mainline,mainline_device_misc,mainline_kernel" remote="Mainline-dep-AOSP" revision="android-mainline" />
 
-  <project path="kernel/virt/virtio" name="android_kernel_virt_virtio" groups="mainline,mainline_device_virt,mainline_kernel" remote="Mainline-dep-LineageOS" />
+  <project path="kernel/virt/virtio" name="android_kernel_virt_virtio" groups="mainline,mainline_device_virt,mainline_kernel" remote="Mainline-dep-LineageOS" revision="lineage-23.2" />
 
 <!--
   <project path="kernel/mainline/msm8916-mainline" name="msm8916-mainline/linux" groups="mainline,mainline_device_qcom,mainline_kernel" remote="github" revision="FIXME" />

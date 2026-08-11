@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Mainline-dep-AOSP"
           fetch="https://android.googlesource.com"
-          revision="android16-release" />
+          revision="android17-release" />
 
   <remote name="Mainline-dep-BayLibre"
           fetch="https://gitlab.baylibre.com/baylibre/ti/android/aosp"
@@ -10,5 +10,5 @@
 
   <remote name="Mainline-dep-LineageOS"
           fetch="https://github.com/LineageOS"
-          revision="lineage-23.2" />
+          revision="lineage-24.0" />
 </manifest>
