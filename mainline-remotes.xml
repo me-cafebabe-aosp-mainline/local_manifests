@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="Mainline"
+          fetch="https://github.com/me-cafebabe-aosp-mainline"
+          revision="main" />
+
   <remote name="Mainline-dep-AOSP"
           fetch="https://android.googlesource.com"
           revision="android17-release" />
