@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Hardware components dependencies -->
+  <project path="external/mainline-hw-deps/alsa-lib" name="android_external_alsa-lib" groups="mainline,mainline_external" remote="Mainline" revision="lineage-24.0" />
+  <project path="external/mainline-hw-deps/alsa-ucm-conf" name="android_external_alsa-ucm-conf" groups="mainline,mainline_external" remote="Mainline" revision="lineage-24.0" />
   <project path="external/mainline-hw-deps/glib" name="android_external_glib" groups="mainline,mainline_external" remote="Mainline" />
   <project path="external/mainline-hw-deps/libqmi" name="android_external_libqmi" groups="mainline,mainline_external" remote="Mainline" />
   <project path="external/mainline-hw-deps/libqrtr-glib" name="android_external_libqrtr-glib" groups="mainline,mainline_external" remote="Mainline" />
