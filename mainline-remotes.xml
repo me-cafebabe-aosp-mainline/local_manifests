@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Mainline"
           fetch="https://github.com/me-cafebabe-aosp-mainline"
-          revision="main" />
+          revision="lineage-24.0" />
 
   <remote name="Mainline-dep-AOSP"
           fetch="https://android.googlesource.com"

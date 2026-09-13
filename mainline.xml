@@ -11,9 +11,12 @@
   <!-- Mainline repositories -->
   <project path="external/linux-firmware-mainline" name="android_external_linux-firmware-mainline" groups="mainline" remote="Mainline-dep-LineageOS" />
   <project path="hardware/mainline/common" name="android_hardware_mainline_common" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="hardware/mainline/common-ext" name="android_hardware_mainline_common-ext" groups="mainline" remote="Mainline" />
   <project path="hardware/mainline/qcom" name="android_hardware_mainline_qcom" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="hardware/mainline/qcom-ext" name="android_hardware_mainline_qcom-ext" groups="mainline" remote="Mainline" />
   <project path="kernel/mainline/configs" name="android_kernel_mainline_configs" groups="mainline" remote="Mainline-dep-LineageOS" />
   <project path="device/mainline/common" name="android_device_mainline_common" groups="mainline" remote="Mainline-dep-LineageOS" />
+  <project path="device/mainline/common-ext" name="android_device_mainline_common-ext" groups="mainline" remote="Mainline" />
   <project path="vendor/mainline" name="android_vendor_mainline" groups="mainline" remote="Mainline-dep-LineageOS" />
 
   <!-- Mesa -->

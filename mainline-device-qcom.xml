@@ -5,6 +5,7 @@
 
   <!-- Common -->
   <project path="device/mainline/qcom-common" name="android_device_mainline_qcom-common" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
+  <project path="device/mainline/qcom-common-ext" name="android_device_mainline_qcom-common-ext" groups="mainline,mainline_device_qcom" remote="Mainline" />
 
   <!-- Xiaomi -->
   <project path="device/xiaomi/mi7150-mainline" name="android_device_xiaomi_mi7150-mainline" groups="mainline,mainline_device_qcom" remote="Mainline-dep-LineageOS" />
