@@ -8,4 +8,9 @@
   <project path="external/mainline-hw-deps/libqrtr-glib" name="android_external_libqrtr-glib" groups="mainline,mainline_external" remote="Mainline" revision="main" />
   <project path="external/mainline-hw-deps/libssc" name="android_external_libssc" groups="mainline,mainline_external" remote="Mainline" revision="main" />
   <project path="external/mainline-hw-deps/protobuf-c" name="android_external_protobuf-c" groups="mainline,mainline_external" remote="Mainline" revision="master" />
+
+  <!-- Mesa -->
+  <project path="external/libdrm-upstream" name="android_external_libdrm-upstream" groups="mainline" remote="Mainline" />
+  <project path="external/mesa" name="android_external_mesa" groups="mainline" remote="Mainline" />
+  <project path="prebuilts/mesa-build-dep" name="android_prebuilts_mesa-build-dep" groups="mainline" remote="Mainline" />
 </manifest>
