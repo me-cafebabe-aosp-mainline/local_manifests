@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- APPs -->
+  <project path="packages/apps/DisplayModes" name="android_packages_apps_DisplayModes" groups="mainline" remote="Mainline" />
+
   <!-- Boot manager -->
   <project path="prebuilts/bootmgr" name="android_prebuilts_bootmgr" groups="mainline" remote="Mainline" />
 
