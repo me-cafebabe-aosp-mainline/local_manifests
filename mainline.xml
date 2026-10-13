@@ -4,7 +4,7 @@
   <project path="packages/apps/DisplayModes" name="android_packages_apps_DisplayModes" groups="mainline" remote="Mainline" />
 
   <!-- Boot manager -->
-  <project path="prebuilts/bootmgr" name="android_prebuilts_bootmgr" groups="mainline" remote="Mainline" />
+  <project path="prebuilts/bootmgr" name="android_prebuilts_bootmgr" groups="mainline" remote="Mainline" revision="master" />
 
   <!-- HALs -->
   <project path="external/drm_hwcomposer-upstream" name="android_external_drm_hwcomposer-upstream" groups="mainline" remote="Mainline" />
