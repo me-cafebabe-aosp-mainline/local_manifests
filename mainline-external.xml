@@ -13,4 +13,7 @@
   <project path="external/libdrm-upstream" name="android_external_libdrm-upstream" groups="mainline" remote="Mainline" />
   <project path="external/mesa" name="android_external_mesa" groups="mainline" remote="Mainline" />
   <project path="prebuilts/mesa-build-dep" name="android_prebuilts_mesa-build-dep" groups="mainline" remote="Mainline" />
+
+  <!-- Misc -->
+  <project path="external/libqrencode" name="android_external_libqrencode" groups="mainline,mainline_external" remote="Mainline" revision="master" />
 </manifest>
