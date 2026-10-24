@@ -10,6 +10,12 @@
   <!-- Misc -->
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" groups="mainline,mainline_device_qcom" remote="Mainline" />
 
+  <!-- Qualcomm -->
+  <project path="device/qualcomm/qrd8937" name="android_device_qualcomm_qrd8937" groups="mainline,mainline_device_qcom" remote="Mainline" />
+
+  <!-- Samsung -->
+  <project path="device/samsung/ss8916" name="android_device_samsung_ss8916" groups="mainline,mainline_device_qcom" remote="Mainline" />
+
   <!-- Xiaomi -->
   <project path="device/xiaomi/mi7150-mainline" name="android_device_xiaomi_mi7150-mainline" groups="mainline,mainline_device_qcom" remote="Mainline" />
   <project path="device/xiaomi/mi89xx-mainline" name="android_device_xiaomi_mi89xx-mainline" groups="mainline,mainline_device_qcom" remote="Mainline" />
